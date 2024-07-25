@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { useRef } from "react"
 
+// eslint-disable-next-line react/prop-types
 export function ApplyJobDialog({ open, setOpen }) {
     const uploadResumeRef = useRef();
 
