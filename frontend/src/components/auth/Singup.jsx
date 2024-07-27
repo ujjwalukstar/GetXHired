@@ -47,7 +47,7 @@ const Signup = () => {
 
     try {
       dispatch(setLoading(true)); // Start loading
-      const res = await axios.post("http://localhost:8000/api/v1/user/register", formData, {
+      const res = await axios.post("https://getxhired.onrender.com/api/v1/user/register", formData, {
         headers: {
           "Content-Type": "multipart/form-data"
         },
